@@ -1,3 +1,7 @@
+## FORK
+
+This fork has been created to use this extension with Symfony 5.1 / PHP 7.4 and the latest version of Behat.
+
 TableExtension
 ==============
 

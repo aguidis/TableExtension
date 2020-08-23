@@ -7,8 +7,10 @@ default:
         - LoversOfBehat\TableExtension\Context\TableContext
   extensions:
     Behat\MinkExtension:
-      goutte: ~
-      base_url: http://localhost:8000
+      base_url: "http://localhost:8000/"
+      sessions:
+        default:
+          goutte: ~
     LoversOfBehat\TableExtension:
       table_map:
         'simple': '#simple-table'
